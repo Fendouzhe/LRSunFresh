@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CC60CE11F0B990A00C298B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC60CE01F0B990A00C298B6 /* main.m */; };
+		8CC60CE41F0B990A00C298B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC60CE31F0B990A00C298B6 /* AppDelegate.m */; };
+		8CC60CE71F0B990A00C298B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC60CE61F0B990A00C298B6 /* ViewController.m */; };
+		8CC60CEA1F0B990A00C298B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC60CE81F0B990A00C298B6 /* Main.storyboard */; };
+		8CC60CEC1F0B990A00C298B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CC60CEB1F0B990A00C298B6 /* Assets.xcassets */; };
+		8CC60CEF1F0B990A00C298B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC60CED1F0B990A00C298B6 /* LaunchScreen.storyboard */; };
+		8CC60CF91F0B993700C298B6 /* MGCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC60CF71F0B993700C298B6 /* MGCell.m */; };
+		8CC60CFA1F0B993700C298B6 /* MGCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CC60CF81F0B993700C298B6 /* MGCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8CC60CDC1F0B990A00C298B6 /* LRSunFresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LRSunFresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC60CE01F0B990A00C298B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CC60CE21F0B990A00C298B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8CC60CE31F0B990A00C298B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8CC60CE51F0B990A00C298B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8CC60CE61F0B990A00C298B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8CC60CE91F0B990A00C298B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CC60CEB1F0B990A00C298B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CC60CEE1F0B990A00C298B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8CC60CF01F0B990A00C298B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CC60CF61F0B993700C298B6 /* MGCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGCell.h; sourceTree = "<group>"; };
+		8CC60CF71F0B993700C298B6 /* MGCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGCell.m; sourceTree = "<group>"; };
+		8CC60CF81F0B993700C298B6 /* MGCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MGCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CC60CD91F0B990A00C298B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CC60CD31F0B990A00C298B6 = {
+			isa = PBXGroup;
+			children = (
+				8CC60CDE1F0B990A00C298B6 /* LRSunFresh */,
+				8CC60CDD1F0B990A00C298B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CC60CDD1F0B990A00C298B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CC60CDC1F0B990A00C298B6 /* LRSunFresh.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CC60CDE1F0B990A00C298B6 /* LRSunFresh */ = {
+			isa = PBXGroup;
+			children = (
+				8CC60CE21F0B990A00C298B6 /* AppDelegate.h */,
+				8CC60CE31F0B990A00C298B6 /* AppDelegate.m */,
+				8CC60CE51F0B990A00C298B6 /* ViewController.h */,
+				8CC60CE61F0B990A00C298B6 /* ViewController.m */,
+				8CC60CE81F0B990A00C298B6 /* Main.storyboard */,
+				8CC60CF61F0B993700C298B6 /* MGCell.h */,
+				8CC60CF71F0B993700C298B6 /* MGCell.m */,
+				8CC60CF81F0B993700C298B6 /* MGCell.xib */,
+				8CC60CEB1F0B990A00C298B6 /* Assets.xcassets */,
+				8CC60CED1F0B990A00C298B6 /* LaunchScreen.storyboard */,
+				8CC60CF01F0B990A00C298B6 /* Info.plist */,
+				8CC60CDF1F0B990A00C298B6 /* Supporting Files */,
+			);
+			path = LRSunFresh;
+			sourceTree = "<group>";
+		};
+		8CC60CDF1F0B990A00C298B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CC60CE01F0B990A00C298B6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CC60CDB1F0B990A00C298B6 /* LRSunFresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC60CF31F0B990A00C298B6 /* Build configuration list for PBXNativeTarget "LRSunFresh" */;
+			buildPhases = (
+				8CC60CD81F0B990A00C298B6 /* Sources */,
+				8CC60CD91F0B990A00C298B6 /* Frameworks */,
+				8CC60CDA1F0B990A00C298B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LRSunFresh;
+			productName = LRSunFresh;
+			productReference = 8CC60CDC1F0B990A00C298B6 /* LRSunFresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CC60CD41F0B990A00C298B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "广州宇中网络科技有限公司";
+				TargetAttributes = {
+					8CC60CDB1F0B990A00C298B6 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9QLCGED959;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8CC60CD71F0B990A00C298B6 /* Build configuration list for PBXProject "LRSunFresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CC60CD31F0B990A00C298B6;
+			productRefGroup = 8CC60CDD1F0B990A00C298B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CC60CDB1F0B990A00C298B6 /* LRSunFresh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CC60CDA1F0B990A00C298B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC60CEF1F0B990A00C298B6 /* LaunchScreen.storyboard in Resources */,
+				8CC60CEC1F0B990A00C298B6 /* Assets.xcassets in Resources */,
+				8CC60CEA1F0B990A00C298B6 /* Main.storyboard in Resources */,
+				8CC60CFA1F0B993700C298B6 /* MGCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CC60CD81F0B990A00C298B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC60CE71F0B990A00C298B6 /* ViewController.m in Sources */,
+				8CC60CE41F0B990A00C298B6 /* AppDelegate.m in Sources */,
+				8CC60CE11F0B990A00C298B6 /* main.m in Sources */,
+				8CC60CF91F0B993700C298B6 /* MGCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8CC60CE81F0B990A00C298B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CC60CE91F0B990A00C298B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CC60CED1F0B990A00C298B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CC60CEE1F0B990A00C298B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CC60CF11F0B990A00C298B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8CC60CF21F0B990A00C298B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CC60CF41F0B990A00C298B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9QLCGED959;
+				INFOPLIST_FILE = LRSunFresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuangkuai.LRSunFresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CC60CF51F0B990A00C298B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9QLCGED959;
+				INFOPLIST_FILE = LRSunFresh/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuangkuai.LRSunFresh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CC60CD71F0B990A00C298B6 /* Build configuration list for PBXProject "LRSunFresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC60CF11F0B990A00C298B6 /* Debug */,
+				8CC60CF21F0B990A00C298B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC60CF31F0B990A00C298B6 /* Build configuration list for PBXNativeTarget "LRSunFresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC60CF41F0B990A00C298B6 /* Debug */,
+				8CC60CF51F0B990A00C298B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CC60CD41F0B990A00C298B6 /* Project object */;
+}
